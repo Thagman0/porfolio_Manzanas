@@ -113,31 +113,32 @@ totalProjects.style.color = "yellow";
 ////////////////////////////////////////////////
 // Load Tech Stack
 
-const techStack = [
-  { name: "Flutter", image: "assets/flutter.png" },
-  { name: "JavaScript", image: "assets/javascript.png" },
-  { name: "PHP", image: "assets/php.png" },
-  { name: "React", image: "assets/react.png" },
-  { name: "HTML", image: "assets/html.png" },
-  { name: "CSS", image: "assets/css.png" },
-  { name: "Python", image: "assets/python.png" },
-  { name: "Java", image: "assets/java.png" },
-  { name: "C", image: "assets/c.png" },
-  { name: "C++", image: "assets/cpp.png" },
-  { name: "Git", image: "assets/git.png" },
-  { name: "MySQL", image: "assets/mysql.png" },
-  { name: "Firebase", image: "assets/firebase.png" },
-  { name: "SQLite", image: "assets/sqlite.png" },
-  { name: "VS Code", image: "assets/vscode.png" },
-  { name: "Android Studio", image: "assets/android-studio.png" },
-  { name: "PyCharm", image: "assets/pycharm.png" },
-  { name: "IntelliJ", image: "assets/intellij.png" },
-  { name: "mac OS", image: "assets/macos.png" },
-  { name: "Windows", image: "assets/windows.png" },
-  { name: "Android", image: "assets/android.png" },
-  { name: "Visual Paradigm", image: "assets/visual-paradigm.png" },
-  { name: "CS:GO", image: "assets/csgo.png" },
-];
+
+//const techStack = [
+//  { name: "Flutter", image: "assets/flutter.png" },
+//  { name: "JavaScript", image: "assets/javascript.png" },
+//  { name: "PHP", image: "assets/php.png" },
+//  { name: "React", image: "assets/react.png" },
+//  { name: "HTML", image: "assets/html.png" },
+//  { name: "CSS", image: "assets/css.png" },
+//  { name: "Python", image: "assets/python.png" },
+//  { name: "Java", image: "assets/java.png" },
+//  { name: "C", image: "assets/c.png" },
+//  { name: "C++", image: "assets/cpp.png" },
+//  { name: "Git", image: "assets/git.png" },
+//  { name: "MySQL", image: "assets/mysql.png" },
+//  { name: "Firebase", image: "assets/firebase.png" },
+//  { name: "SQLite", image: "assets/sqlite.png" },
+//  { name: "VS Code", image: "assets/vscode.png" },
+//  { name: "Android Studio", image: "assets/android-studio.png" },
+//  { name: "PyCharm", image: "assets/pycharm.png" },
+//  { name: "IntelliJ", image: "assets/intellij.png" },
+//  { name: "mac OS", image: "assets/macos.png" },
+//  { name: "Windows", image: "assets/windows.png" },
+//  { name: "Android", image: "assets/android.png" },
+//  { name: "Visual Paradigm", image: "assets/visual-paradigm.png" },
+//  { name: "CS:GO", image: "assets/csgo.png" },
+//];
 
 // Get the container element where you want to display the tech stack items
 const container = document.getElementById("tech-stack-container");
@@ -190,5 +191,5 @@ submit.addEventListener("click", (e) => {
 
   const body = `Hi, I'm ${name}. ${message}. Reach out via my email at ${email}`;
 
-  window.open(`mailto:j.lok2301@gmail.com?subject=${subject}&body=${body}`);
+  window.open(`mailto:manzanasesteban@gmail.com?subject=${subject}&body=${body}`);
 });

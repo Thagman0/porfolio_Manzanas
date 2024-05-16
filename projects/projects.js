@@ -1,3 +1,4 @@
+/**
 export const projects = [
   {
     title: "BeaverX",
@@ -182,3 +183,4 @@ export const projects = [
     source: "https://github.com/lok2042/AudioPlayer-using-Java",
   },
 ];
+ */
